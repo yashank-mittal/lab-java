@@ -1,4 +1,4 @@
-# neurolab-java
+# lab-java
 
 Command to run HelloWorld.java file:
 
