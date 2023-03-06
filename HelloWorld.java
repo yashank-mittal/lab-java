@@ -1,5 +1,15 @@
-public class HelloWorld{
-    public static void main(String[] args){
-        System.out.println("Chal nikal");
+class evaluate 
+
+
+    {
+
+         public static void main(String args[]) 
+
+             {
+
+                int arr[] = new int [5];
+                System.out.println("hello");
+                System.out.println(arr);
+             } 
+
     }
-}

@@ -51,7 +51,13 @@ class Umpire{
         FromPlayer();
         if(numberby_guesser == numberby_player1)
         {
-            return numberby_player1;
+            if(numberby_guesser == numberby_player1 && numberby_guesser == numberby_player2)
+            {
+                return 1;
+            }else{
+                return numberby_player1;
+            }
+            
         }
         else if(numberby_guesser == numberby_player2)
         {
@@ -69,7 +75,11 @@ public class Gusser_Game {
     {
         Umpire u = new Umpire();
         int result=u.compare();
-        if(u.numberby_player1 == result)
+        if(result == 1)
+        {
+            System.out.println("Both person  is right");
+        }
+        else if(u.numberby_player1 == result)
         {
             System.out.println("Player1 has won the game");
         }
