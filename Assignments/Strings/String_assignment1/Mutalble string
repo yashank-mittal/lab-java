@@ -1,0 +1,2 @@
+Mutable is the type of string when we try to perform any sort of operation on string those changes can reflect in the same object of string called mutable string. 
+ex- StringBuilder and StringBuffer can manupulate data in same reference object.
