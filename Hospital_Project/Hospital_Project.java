@@ -228,6 +228,7 @@ class Hospital_Management
     }
 }
 
+
 public class Hospital_Project {
     public static void main(String[] args)
     {
